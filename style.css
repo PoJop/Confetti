@@ -1,0 +1,12 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#confetti {
+    transform: translateY(-20px);
+    position: absolute;
+    width: 10px;
+    height: 2px;
+}
