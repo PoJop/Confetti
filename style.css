@@ -10,3 +10,30 @@ body {
     width: 10px;
     height: 2px;
 }
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.text h1 {
+
+    font-weight: 700;
+    font-size: 62px;
+    font-family: 'Calibri';
+
+
+}
+
+@media screen and (max-width: 900px) {
+    .text h1 {
+
+        font-weight: 700;
+        font-size: 22px;
+        font-family: 'Calibri';
+
+
+    }
+}
+
